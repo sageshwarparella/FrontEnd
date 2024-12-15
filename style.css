@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --nav-color: #62929E;
+    --primary-color:white;
+    --text-color: black;
+    --underline-color:#0D1F2D;
+}
+
+ .background{
+   min-height: 100vh;
+   position:relative;
+ }  
+ .navbar{
+    height:90px;
+    width:100%;
+    /* margin-top; */
+    border-bottom:3px solid var(--underline-color);
+    background-color: var(--nav-color);
+    color:#0D1F2D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo{
+    font-family: "Oswald", sans-serif;
+    width:60%;
+    margin-left: 0px;
+    font-weight: 900;
+  }
+  .nav-contents{
+    font-family: "Oswald", sans-serif;
+    width:35%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+ 
+  .content{
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 600;
+    border-left: 2px solid #0D1F2D;
+    padding-left: 8px;
+ }
+ .data{
+  height: 100px;
+  background-color: var(--nav-color);
+  border-top: 3px solid var(--underline-color);
+  border-bottom: 3px solid var(--underline-color);
+ }
+ .cache{
+  font-family: "Oswald", sans-serif;
+  padding-top: 28px;
+padding-left: 33px;
+ }
+ /* .box-content:hover{
+       text-decoration:2px underline #0D1F2D ;
+ } */
+ .matter{
+   
+    height:100px;
+    width:100%;
+    background-color: white;
+ }
+ .tagline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+ }
+ /* .background::before{
+    content: '';
+    background-image: url("joystick_controller_gamepad_126439_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    opacity:0.3;
+  } */
+  .shop{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 20px;
+    }
+.box{
+    height: 400px;
+    width:25%;
+    background-color:white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+.box-content:hover{
+  border : 3px solid var(--underline-color);
+}
+ .box-img{
+    height:330px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+.box-content a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #007185;
+}
+.explore{
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 45%;
+  color:#007185 ;
+ 
+}
+.explore button{
+  color:#007185;
+  border:transparent;
+  background-color: transparent;
+}
+.why{
+  color:black;
+  /* padding-top: 0px; */
+  margin-top: 50px;
+}
+.why{
+  height: 70px;
+  background-color: var(--nav-color);
+  border-top: 3px solid var(--underline-color);
+  border-bottom: 3px solid var(--underline-color);
+ }
+ .cache{
+  font-family: "Oswald", sans-serif;
+  padding-top: 20px;
+padding-left: 33px;
+ }
+.reason{
+  margin-top: 15px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.image{
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.image1{
+  height:300px;
+  width: 30%;
+  
+  background-size: cover;
+  margin-left: 20px;
+}
+.why2{
+  margin-top: 50px;
+  height: 70px;
+  background-color: var(--nav-color);
+  border-top: 3px solid var(--underline-color);
+  border-bottom: 3px solid var(--underline-color);
+ }
+.cache2{
+  height: 70px;
+  background-color: var(--nav-color);
+  font-family: "Oswald", sans-serif;
+  padding-top: 20px;
+padding-left: 33px;
+  border-bottom: 3px solid var(--underline-color);
+}
+.labels{
+  height: 70px;
+  margin-top: 50px;
+  
+  
+}
+#contactForm{
+  display: flex;
+  justify-content: space-evenly;
+}
